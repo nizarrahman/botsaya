@@ -413,7 +413,7 @@ module.exports = {
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: 'R-Txzy',
+                  body: '© Nizar Rahman',
                   thumbnail: poi
                 }
               }}) 
@@ -483,9 +483,9 @@ global.dfail = (type, m, conn) => {
     premium: 'This command only can used by _*Premium Users.*_\nPerintah ini hanya dapat digunakan oleh _*User Premium.*_',
     group: 'This command only can used in Group.\nPerintah ini hanya dapat digunakan di Group.',
     private: 'This command only can used in Private Chat.\nPerintah ini hanya dapat digunakan di Chat Pribadi.',
-    admin: 'This command only can used by *Group Admin.*\nPerintah ini hanya dapat digunakan oleh *Admin Group.*',
+    admin: 'This command only can used by *Group Admin.*\nKhusus Admin Tod.*',
     botAdmin: 'Make the bot number as a group admin to use this command.\nJadikan bot sebagai admin untuk menggunakan perintah ini.',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar R-Txzy.19*',
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Nizar Gans.19*',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
   }[type]
   if (msg) return m.reply(msg)
